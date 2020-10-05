@@ -1,0 +1,4 @@
+require './game.rb';
+require './card.rb';
+
+game = Game.new(2);
