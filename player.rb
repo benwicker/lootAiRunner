@@ -3,12 +3,12 @@ require './enums.rb'
 class Player
   attr_accessor :name
   attr_accessor :hand
-  attr_accessor :points 
+  attr_accessor :captured_ships 
 
   def initialize (name)
     @name = name
     @hand = []
-    @points = []
+    @captured_ships = []
   end
 
   def perform_turn(game_state)
